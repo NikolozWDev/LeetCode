@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../output.css">
+    <link rel="icon" href="../assets/Screenshot 2025-01-05 114349.png">
+    <title>LeetCode - Problems</title>
+</head>
+<body class="overflow-x-hidden font-sans bg-slate-50">
+
+
+
+
+    <div class="w-full flex justify-center mt-[50px]">
+        <div class="flex flex-wrap gap-[30px] justify-center">
+
+
+
+            <div class="bg-image10 w-[270px] p-[10px] rounded-[10px] flex flex-col gap-[0px] items-start">
+                <p class="text-white text-[25px] font-bold">2024</p>
+                <p class="text-gray-400 text-[16px]">LeetCode Rewind</p>
+                <button class="bg-white text-black text-[14px] rounded-[4px] pl-[8px] pr-[8px] pt-[3px] pb-[3px] mt-[20px]">Start Learning</button>
+            </div>
+
+            <div class="bg-green-700 w-[270px] p-[10px] rounded-[10px] flex flex-col gap-[0px] items-start">
+                <p class="text-white text-[25px] font-bold">LeetCode's Interview Crash Course:</p>
+                <p class="text-gray-400 text-[16px]">System Design for Interviews</p>
+                <button class="bg-white text-black text-[14px] rounded-[4px] pl-[8px] pr-[8px] pt-[3px] pb-[3px] mt-[20px]">Start Learning</button>
+            </div>
+
+            <div class="bg-purple-500 w-[270px] p-[10px] rounded-[10px] flex flex-col gap-[0px] items-start">
+                <p class="text-white text-[25px] font-bold">LeetCode's Interview Crash Course:</p>
+                <p class="text-gray-400 text-[16px]">Data Structures and Algorithms</p>
+                <button class="bg-white text-black text-[14px] rounded-[4px] pl-[8px] pr-[8px] pt-[3px] pb-[3px] mt-[20px]">Start Learning</button>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+
+    <div class="flex justify-center mt-[50px]">
+        <p class="text-gray-600 text-[24px] font-bold">Study Plan</p>
+    </div>
+    
+
+    <div class="w-full flex justify-center mt-[20px]">
+        <div class="flex flex-wrap justify-center gap-[30px] phone1050:w-[1020px]">
+
+
+            <div class="flex w-[320px] p-[10px] shadow-lg border-[1px] border-gray-100 gap-[15px] items-center">
+                <img class="w-[70px] rounded-[4px]" src="../assets/cover.png">
+                <div>
+                    <p class="text-black text-[15px] font-serif">Top Interview 150</p>
+                    <p class="text-gray-400 text-[15px] font-serif">Must-do List for Interview Prep</p>
+                </div>
+            </div>
+
+
+
+            <div class="flex w-[320px] p-[10px] shadow-lg border-[1px] border-gray-100 gap-[15px] items-center">
+                <img class="w-[70px] rounded-[4px]" src="../assets/cover (1).png">
+                <div>
+                    <p class="text-black text-[15px] font-serif">LeetCode 75</p>
+                    <p class="text-gray-400 text-[15px] font-serif">Ace Coding Interview with 75 Qs</p>
+                </div>
+            </div>
+
+
+
+
+            <div class="flex w-[320px] p-[10px] shadow-lg border-[1px] border-gray-100 gap-[15px] items-center">
+                <img class="w-[70px] rounded-[4px]" src="../assets/cover (2).png">
+                <div>
+                    <p class="text-black text-[15px] font-serif">SQL 50</p>
+                    <p class="text-gray-400 text-[15px] font-serif">Crack SQL Interview in 50 Qs</p>
+                </div>
+            </div>
+
+
+
+            <div class="flex w-[320px] p-[10px] shadow-lg border-[1px] border-gray-100 gap-[15px] items-center">
+                <img class="w-[70px] rounded-[4px]" src="../assets/cover (3).png">
+                <div>
+                    <p class="text-black text-[15px] font-serif">Introduction to Pandas</p>
+                    <p class="text-gray-400 text-[15px] font-serif">Learn Basic Pandas in 15 Qs</p>
+                </div>
+            </div>
+
+
+
+            <div class="flex w-[320px] p-[10px] shadow-lg border-[1px] border-gray-100 gap-[15px] items-center">
+                <img class="w-[70px] rounded-[4px]" src="../assets/cover (4).png">
+                <div>
+                    <p class="text-black text-[15px] font-serif">30 Days of JavaScript</p>
+                    <p class="text-gray-400 text-[15px] font-serif">Learn JS Basics with 30 Qs</p>
+                </div>
+            </div>
+
+
+
+
+            <div class="flex w-[320px] p-[10px] shadow-lg border-[1px] border-gray-100 gap-[15px] items-center">
+                <img class="w-[70px] rounded-[4px]" src="../assets/cover.png">
+                <div>
+                    <p class="text-black text-[15px] font-serif">Amazon Spring 30 High Frequency</p>
+                    <p class="text-gray-400 text-[15px] font-serif">Practice Amazon 25 Recently...</p>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="w-full flex justify-center mt-[60px] phone600:mt-[30px]">
+        <div class="flex flex-wrap justify-center gap-[30px] phone1050:w-[1050px]">
+
+
+
+            <p class="text-black text-[15px]">Array <span class="bg-gray-200 rounded-[10px] pl-[5px] pr-[5px] text-gray-400">1798</span></p>
+
+            <p class="text-black text-[15px]">String <span class="bg-gray-200 rounded-[10px] pl-[5px] pr-[5px] text-gray-400">749</span></p>
+
+            <p class="text-black text-[15px]">Hash Table <span class="bg-gray-200 rounded-[10px] pl-[5px] pr-[5px] text-gray-400">652</span></p>
+
+            <p class="text-black text-[15px]">Dynamic Programming <span class="bg-gray-200 rounded-[10px] pl-[5px] pr-[5px] text-gray-400">554</span></p>
+
+            <p class="text-black text-[15px]">Math <span class="bg-gray-200 rounded-[10px] pl-[5px] pr-[5px] text-gray-400">544</span></p>
+            
+            <p class="text-black text-[15px]">Sorting <span class="bg-gray-200 rounded-[10px] pl-[5px] pr-[5px] text-gray-400">424</span></p>
+
+            <p class="text-black text-[15px]">Greedy <span class="bg-gray-200 rounded-[10px] pl-[5px] pr-[5px] text-gray-400">391</span></p>
+
+            <p class="text-black text-[15px]">Hash Table <span class="bg-gray-200 rounded-[10px] pl-[5px] pr-[5px] text-gray-400">652</span></p>
+
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="w-full flex justify-center mt-[60px] phone600:mt-[30px]">
+        <div class="flex flex-wrap justify-center gap-[38px] phone1050:w-[1050px]">
+
+
+
+            <button class="pl-[12px] pr-[12px] pt-[7px] pb-[7px] rounded-[30px] bg-gray-800 flex items-center gap-[6px]">
+                <img src="../assets/Screenshot 2025-01-07 113218.png">
+                <p class="text-white text-[16px]">All Topics</p>
+            </button>
+
+            
+            <button class="pl-[12px] pr-[12px] pt-[7px] pb-[7px] rounded-[30px] bg-gray-100 flex items-center gap-[6px]">
+                <img src="../assets/Screenshot 2025-01-07 113225.png">
+                <p class="text-gray-400 text-[16px]">Algorithms</p>
+            </button>
+
+            
+            <button class="pl-[12px] pr-[12px] pt-[7px] pb-[7px] rounded-[30px] bg-gray-100 flex items-center gap-[6px]">
+                <img src="../assets/Screenshot 2025-01-07 113233.png">
+                <p class="text-gray-400 text-[16px]">Database</p>
+            </button>
+
+
+
+            <button class="pl-[12px] pr-[12px] pt-[7px] pb-[7px] rounded-[30px] bg-gray-100 flex items-center gap-[6px]">
+                <img src="../assets/Screenshot 2025-01-07 113242.png">
+                <p class="text-gray-400 text-[16px]">Shell</p>
+            </button>
+
+
+
+            <button class="pl-[12px] pr-[12px] pt-[7px] pb-[7px] rounded-[30px] bg-gray-100 flex items-center gap-[6px]">
+                <img src="../assets/Screenshot 2025-01-07 113253.png">
+                <p class="text-gray-400 text-[16px]">Concurrency</p>
+            </button>
+
+
+
+            <button class="pl-[12px] pr-[12px] pt-[7px] pb-[7px] rounded-[30px] bg-gray-100 flex items-center gap-[6px]">
+                <img src="../assets/Screenshot 2025-01-07 113305.png">
+                <p class="text-gray-400 text-[16px]">JavaScript</p>
+            </button>
+
+
+            <button class="pl-[12px] pr-[12px] pt-[7px] pb-[7px] rounded-[30px] bg-gray-100 flex items-center gap-[6px]">
+                <img src="../assets/Screenshot 2025-01-07 114133.png">
+                <p class="text-gray-400 text-[16px]">pandas</p>
+            </button>
+
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="w-full flex justify-center mt-[60px] phone600:mt-[30px]">
+        <div class="flex flex-wrap justify-center gap-[36px] phone1050:w-[1050px]">
+
+
+
+            <button class="bg-gray-100 rounded-[8px] flex items-center pl-[12px] pr-[12px] pt-[5px] pb-[5px] gap-[30px]">
+                <p class="text-gray-500 text-[16px]">Lists</p>
+                <img src="../assets/Screenshot 2025-01-07 114354.png">
+            </button>
+
+
+            <button class="bg-gray-100 rounded-[8px] flex items-center pl-[12px] pr-[12px] pt-[5px] pb-[5px] gap-[30px]">
+                <p class="text-gray-500 text-[16px]">Difficulty</p>
+                <img src="../assets/Screenshot 2025-01-07 114354.png">
+            </button>
+
+
+            <button class="bg-gray-100 rounded-[8px] flex items-center pl-[12px] pr-[12px] pt-[5px] pb-[5px] gap-[30px]">
+                <p class="text-gray-500 text-[16px]">Status</p>
+                <img src="../assets/Screenshot 2025-01-07 114354.png">
+            </button>
+
+
+            <button class="bg-gray-100 rounded-[8px] flex items-center pl-[12px] pr-[12px] pt-[5px] pb-[5px] gap-[30px]">
+                <p class="text-gray-500 text-[16px]">Tags</p>
+                <img src="../assets/Screenshot 2025-01-07 114354.png">
+            </button>
+
+            
+            <div class="relative">
+                <img class="absolute top-[10px] left-[10px]" src="../assets/Screenshot 2025-01-07 114401.png">
+                <input class="bg-gray-100 rounded-[8px] text-gray-500 text-[16px] pl-[35px] pr-[12px] pt-[7px] pb-[7px] border-[1px] border-gray-200" type="search" placeholder="Search questions">
+            </div>
+
+
+            <div class="p-[5px] pr-[3px] flex justify-center items-center bg-gray-100 rounded-[4px]">
+                <img src="../assets/Screenshot 2025-01-07 114410.png">
+            </div>
+
+
+            <div class="flex items-center gap-[10px]">
+                <img class="rounded-[50%]" src="../assets/Screenshot 2025-01-07 114420.png">
+                <p class="text-[16px] text-green-500">Pick One</p>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+
+
+    <div class="w-full hidden justify-center mt-[60px] phone600:mt-[30px] phone1100:flex">
+        <div class="flex flex-wrap justify-start gap-[34px] phone1050:w-[1050px] pl-[10px] border-b-[1px] border-b-gray-200 pb-[10px]">
+
+
+
+            <p class="text-[16px] text-gray-500">Status</p>
+
+            <p class="text-[16px] text-gray-500">Title</p>
+
+
+
+        </div>
+    </div>
+
+
+
+
+    <div class="w-[full] hidden justify-center mt-[20px] phone600:mt-[10px] phone1100:flex">
+        <div class="flex flex-wrap justify-center gap-[0px] phone1050:w-[1050px]">
+
+
+
+            <div class="bg-gray-100 pt-[10px] pb-[10px] flex items-center gap-[50px] pl-[550px]">
+                <p class="text-[16px] translate-x-[-475px]">1.Two Sum</p>
+                <img src="../assets/Screenshot 2025-01-07 120831.png">
+                <p class="text-[16px]">54.6%</p>
+                <p class="text-[16px] text-green-500">Easy</p>
+                <img src="../assets/Screenshot 2025-01-07 120854.png">
+            </div>
+
+
+            <div class="bg-white pt-[10px] pb-[10px] flex items-center gap-[50px] pl-[550px]">
+                <p class="text-[16px] translate-x-[-475px]">2.AddTwo</p>
+                <img src="../assets/Screenshot 2025-01-07 120831.png">
+                <p class="text-[16px]">44.9%</p>
+                <p class="text-[16px] text-yellow-500">Medium</p>
+                <img src="../assets/Screenshot 2025-01-07 120854.png">
+            </div>
+
+
+            <div class="bg-gray-100 pt-[10px] pb-[10px] flex items-center gap-[50px] pl-[550px]">
+                <p class="text-[16px] translate-x-[-475px]">3.Longest</p>
+                <img src="../assets/Screenshot 2025-01-07 120831.png">
+                <p class="text-[16px]">54.6%</p>
+                <p class="text-[16px] text-yellow-500">Medium</p>
+                <img src="../assets/Screenshot 2025-01-07 120854.png">
+            </div>
+
+
+            <div class="bg-white pt-[10px] pb-[10px] flex items-center gap-[50px] pl-[550px]">
+                <p class="text-[16px] translate-x-[-475px]">4.Median of</p>
+                <img src="../assets/Screenshot 2025-01-07 120831.png">
+                <p class="text-[16px]">42.4%</p>
+                <p class="text-[16px] text-red-500">Hard</p>
+                <img src="../assets/Screenshot 2025-01-07 120854.png">
+            </div>
+
+
+            <div class="bg-gray-100 pt-[10px] pb-[10px] flex items-center gap-[50px] pl-[550px]">
+                <p class="text-[16px] translate-x-[-475px]">5.Longest</p>
+                <img src="../assets/Screenshot 2025-01-07 120831.png">
+                <p class="text-[16px]">35.0%</p>
+                <p class="text-[16px] text-yellow-500">Medium</p>
+                <img src="../assets/Screenshot 2025-01-07 120854.png">
+            </div>
+
+
+            <div class="bg-white pt-[10px] pb-[10px] flex items-center gap-[50px] pl-[550px]">
+                <p class="text-[16px] translate-x-[-475px]">6.Zigzag</p>
+                <img src="../assets/Screenshot 2025-01-07 120831.png">
+                <p class="text-[16px]">50.2%</p>
+                <p class="text-[16px] text-yellow-500">Medium</p>
+                <img src="../assets/Screenshot 2025-01-07 120854.png">
+            </div>
+
+
+            <div class="bg-gray-100 pt-[10px] pb-[10px] flex items-center gap-[50px] pl-[550px]">
+                <p class="text-[16px] translate-x-[-475px]">7.Reverse</p>
+                <img src="../assets/Screenshot 2025-01-07 120831.png">
+                <p class="text-[16px]">29.6%</p>
+                <p class="text-[16px] text-yellow-500">Medium</p>
+                <img src="../assets/Screenshot 2025-01-07 120854.png">
+            </div>
+
+
+
+            <div class="bg-white pt-[10px] pb-[10px] flex items-center gap-[50px] pl-[550px]">
+                <p class="text-[16px] translate-x-[-475px]">8.String</p>
+                <img src="../assets/Screenshot 2025-01-07 120818.png">
+                <p class="text-[16px]">18.4%</p>
+                <p class="text-[16px] text-yellow-500">Medium</p>
+                <img src="../assets/Screenshot 2025-01-07 120854.png">
+            </div>
+
+
+            <div class="bg-gray-100 pt-[10px] pb-[10px] flex items-center gap-[50px] pl-[550px]">
+                <p class="text-[16px] translate-x-[-475px]">9.Palindrome</p>
+                <img src="../assets/Screenshot 2025-01-07 120831.png">
+                <p class="text-[16px]">58.2%</p>
+                <p class="text-[16px] text-green-500">Easy</p>
+                <img src="../assets/Screenshot 2025-01-07 120854.png">
+            </div>
+
+
+
+            <div class="bg-white pt-[10px] pb-[10px] flex items-center gap-[50px] pl-[550px]">
+                <p class="text-[16px] translate-x-[-475px]">10.Regular</p>
+                <img src="../assets/Screenshot 2025-01-07 120818.png">
+                <p class="text-[16px]">28.7%</p>
+                <p class="text-[16px] text-red-500">Hard</p>
+                <img src="../assets/Screenshot 2025-01-07 120854.png">
+            </div>
+
+
+            <div class="bg-gray-100 pt-[10px] pb-[10px] flex items-center gap-[50px] pl-[550px]">
+                <p class="text-[16px] translate-x-[-475px]">11.Two Sum</p>
+                <img src="../assets/Screenshot 2025-01-07 120831.png">
+                <p class="text-[16px]">54.6%</p>
+                <p class="text-[16px] text-green-500">Easy</p>
+                <img src="../assets/Screenshot 2025-01-07 120854.png">
+            </div>
+
+
+            <div class="bg-white pt-[10px] pb-[10px] flex items-center gap-[50px] pl-[550px]">
+                <p class="text-[16px] translate-x-[-475px]">12.AddTwo</p>
+                <img src="../assets/Screenshot 2025-01-07 120831.png">
+                <p class="text-[16px]">44.9%</p>
+                <p class="text-[16px] text-yellow-500">Medium</p>
+                <img src="../assets/Screenshot 2025-01-07 120854.png">
+            </div>
+
+
+            <div class="bg-gray-100 pt-[10px] pb-[10px] flex items-center gap-[50px] pl-[550px]">
+                <p class="text-[16px] translate-x-[-475px]">13.Longest</p>
+                <img src="../assets/Screenshot 2025-01-07 120831.png">
+                <p class="text-[16px]">54.6%</p>
+                <p class="text-[16px] text-yellow-500">Medium</p>
+                <img src="../assets/Screenshot 2025-01-07 120854.png">
+            </div>
+
+
+            <div class="bg-white pt-[10px] pb-[10px] flex items-center gap-[50px] pl-[550px]">
+                <p class="text-[16px] translate-x-[-475px]">14.Median of</p>
+                <img src="../assets/Screenshot 2025-01-07 120831.png">
+                <p class="text-[16px]">42.4%</p>
+                <p class="text-[16px] text-red-500">Hard</p>
+                <img src="../assets/Screenshot 2025-01-07 120854.png">
+            </div>
+
+
+            <div class="bg-gray-100 pt-[10px] pb-[10px] flex items-center gap-[50px] pl-[550px]">
+                <p class="text-[16px] translate-x-[-475px]">15.Longest</p>
+                <img src="../assets/Screenshot 2025-01-07 120831.png">
+                <p class="text-[16px]">35.0%</p>
+                <p class="text-[16px] text-yellow-500">Medium</p>
+                <img src="../assets/Screenshot 2025-01-07 120854.png">
+            </div>
+
+
+            <div class="bg-white pt-[10px] pb-[10px] flex items-center gap-[50px] pl-[550px]">
+                <p class="text-[16px] translate-x-[-475px]">16.Zigzag</p>
+                <img src="../assets/Screenshot 2025-01-07 120831.png">
+                <p class="text-[16px]">50.2%</p>
+                <p class="text-[16px] text-yellow-500">Medium</p>
+                <img src="../assets/Screenshot 2025-01-07 120854.png">
+            </div>
+
+
+            <div class="bg-gray-100 pt-[10px] pb-[10px] flex items-center gap-[50px] pl-[550px]">
+                <p class="text-[16px] translate-x-[-475px]">17.Reverse</p>
+                <img src="../assets/Screenshot 2025-01-07 120831.png">
+                <p class="text-[16px]">29.6%</p>
+                <p class="text-[16px] text-yellow-500">Medium</p>
+                <img src="../assets/Screenshot 2025-01-07 120854.png">
+            </div>
+
+
+
+            <div class="bg-white pt-[10px] pb-[10px] flex items-center gap-[50px] pl-[550px]">
+                <p class="text-[16px] translate-x-[-475px]">18.String</p>
+                <img src="../assets/Screenshot 2025-01-07 120818.png">
+                <p class="text-[16px]">18.4%</p>
+                <p class="text-[16px] text-yellow-500">Medium</p>
+                <img src="../assets/Screenshot 2025-01-07 120854.png">
+            </div>
+
+
+            <div class="bg-gray-100 pt-[10px] pb-[10px] flex items-center gap-[50px] pl-[550px]">
+                <p class="text-[16px] translate-x-[-475px]">19.Palindrome</p>
+                <img src="../assets/Screenshot 2025-01-07 120831.png">
+                <p class="text-[16px]">58.2%</p>
+                <p class="text-[16px] text-green-500">Easy</p>
+                <img src="../assets/Screenshot 2025-01-07 120854.png">
+            </div>
+
+
+
+            <div class="bg-white pt-[10px] pb-[10px] flex items-center gap-[50px] pl-[550px]">
+                <p class="text-[16px] translate-x-[-475px]">20.Regular</p>
+                <img src="../assets/Screenshot 2025-01-07 120818.png">
+                <p class="text-[16px]">28.7%</p>
+                <p class="text-[16px] text-red-500">Hard</p>
+                <img src="../assets/Screenshot 2025-01-07 120854.png">
+            </div>
+
+
+
+            <div class="bg-gray-100 pt-[10px] pb-[10px] flex items-center gap-[50px] pl-[550px]">
+                <p class="text-[16px] translate-x-[-475px]">21.Two Sum</p>
+                <img src="../assets/Screenshot 2025-01-07 120831.png">
+                <p class="text-[16px]">54.6%</p>
+                <p class="text-[16px] text-green-500">Easy</p>
+                <img src="../assets/Screenshot 2025-01-07 120854.png">
+            </div>
+
+
+            <div class="bg-white pt-[10px] pb-[10px] flex items-center gap-[50px] pl-[550px]">
+                <p class="text-[16px] translate-x-[-475px]">22.AddTwo</p>
+                <img src="../assets/Screenshot 2025-01-07 120831.png">
+                <p class="text-[16px]">44.9%</p>
+                <p class="text-[16px] text-yellow-500">Medium</p>
+                <img src="../assets/Screenshot 2025-01-07 120854.png">
+            </div>
+
+
+            <div class="bg-gray-100 pt-[10px] pb-[10px] flex items-center gap-[50px] pl-[550px]">
+                <p class="text-[16px] translate-x-[-475px]">23.Longest</p>
+                <img src="../assets/Screenshot 2025-01-07 120831.png">
+                <p class="text-[16px]">54.6%</p>
+                <p class="text-[16px] text-yellow-500">Medium</p>
+                <img src="../assets/Screenshot 2025-01-07 120854.png">
+            </div>
+
+
+            <div class="bg-white pt-[10px] pb-[10px] flex items-center gap-[50px] pl-[550px]">
+                <p class="text-[16px] translate-x-[-475px]">24.Median of</p>
+                <img src="../assets/Screenshot 2025-01-07 120831.png">
+                <p class="text-[16px]">42.4%</p>
+                <p class="text-[16px] text-red-500">Hard</p>
+                <img src="../assets/Screenshot 2025-01-07 120854.png">
+            </div>
+
+
+            <div class="bg-gray-100 pt-[10px] pb-[10px] flex items-center gap-[50px] pl-[550px]">
+                <p class="text-[16px] translate-x-[-475px]">25.Longest</p>
+                <img src="../assets/Screenshot 2025-01-07 120831.png">
+                <p class="text-[16px]">35.0%</p>
+                <p class="text-[16px] text-yellow-500">Medium</p>
+                <img src="../assets/Screenshot 2025-01-07 120854.png">
+            </div>
+
+
+            <div class="bg-white pt-[10px] pb-[10px] flex items-center gap-[50px] pl-[550px]">
+                <p class="text-[16px] translate-x-[-475px]">26.Zigzag</p>
+                <img src="../assets/Screenshot 2025-01-07 120831.png">
+                <p class="text-[16px]">50.2%</p>
+                <p class="text-[16px] text-yellow-500">Medium</p>
+                <img src="../assets/Screenshot 2025-01-07 120854.png">
+            </div>
+
+
+            <div class="bg-gray-100 pt-[10px] pb-[10px] flex items-center gap-[50px] pl-[550px]">
+                <p class="text-[16px] translate-x-[-475px]">27.Reverse</p>
+                <img src="../assets/Screenshot 2025-01-07 120831.png">
+                <p class="text-[16px]">29.6%</p>
+                <p class="text-[16px] text-yellow-500">Medium</p>
+                <img src="../assets/Screenshot 2025-01-07 120854.png">
+            </div>
+
+
+
+            <div class="bg-white pt-[10px] pb-[10px] flex items-center gap-[50px] pl-[550px]">
+                <p class="text-[16px] translate-x-[-475px]">28.String</p>
+                <img src="../assets/Screenshot 2025-01-07 120818.png">
+                <p class="text-[16px]">18.4%</p>
+                <p class="text-[16px] text-yellow-500">Medium</p>
+                <img src="../assets/Screenshot 2025-01-07 120854.png">
+            </div>
+
+
+            <div class="bg-gray-100 pt-[10px] pb-[10px] flex items-center gap-[50px] pl-[550px]">
+                <p class="text-[16px] translate-x-[-475px]">29.Palindrome</p>
+                <img src="../assets/Screenshot 2025-01-07 120831.png">
+                <p class="text-[16px]">58.2%</p>
+                <p class="text-[16px] text-green-500">Easy</p>
+                <img src="../assets/Screenshot 2025-01-07 120854.png">
+            </div>
+
+
+
+            <div class="bg-white pt-[10px] pb-[10px] flex items-center gap-[50px] pl-[550px]">
+                <p class="text-[16px] translate-x-[-475px]">30.Regular</p>
+                <img src="../assets/Screenshot 2025-01-07 120818.png">
+                <p class="text-[16px]">28.7%</p>
+                <p class="text-[16px] text-red-500">Hard</p>
+                <img src="../assets/Screenshot 2025-01-07 120854.png">
+            </div>
+
+
+
+
+
+        </div>
+    </div>
+
+
+
+
+
+    <footer class="mt-[100px] pb-[30px]">
+        <div class="flex justify-center">
+        <div class="h-[1px] w-[80%] bg-gray-200 mt-[50px] phone1200:w-[1150px] phone1200:mt-[-10px]"></div>
+    </div>
+
+        <div class="flex flex-row justify-center items-center phone700:justify-around phone1200:justify-center phone1200:gap-[420px]">
+
+        <p class="text-gray-500 text-[16px]">Copyright © 2025 LeetCode</p>
+
+        <div class="flex flex-wrap items-center gap-[20px]">
+            <p class="text-gray-500 text-[16px] cursor-pointer">Help Center  |</p>
+            <p class="text-gray-500 text-[16px] cursor-pointer"> Jobs  |</p>
+            <p class="text-gray-500 text-[16px] cursor-pointer">Bug Bounty  |</p>
+            <p class="text-gray-500 text-[16px] cursor-pointer">Students  |</p>
+            <p class="text-gray-500 text-[16px] cursor-pointer">Terms  |</p>
+            <p class="text-gray-500 text-[16px] cursor-pointer">Privacy Policy</p>
+        </div>
+
+    </div>
+    </footer>
+
+
+
+
+</body>
+</html>

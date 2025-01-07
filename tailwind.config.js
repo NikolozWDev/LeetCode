@@ -13,6 +13,9 @@ module.exports = {
         'image7': "url('https://assets.leetcode.com/explore/cards/dynamic-programming/img.png')",
         'image8': "url('https://assets.leetcode.com/explore/cards/fun-with-arrays/img')",
         'image9': "url('https://assets.leetcode.com/explore/cards/sql-language/img-1657328656.png')",
+        'image10': "url('https://assets.leetcode.com/users/images/93ad444a-6425-413b-9094-8a613d7be5ab_1734667147.858678.png')",
+        'image11': "url('https://assets.leetcode.com/users/images/49479bba-73b3-45d2-9272-99e773d784b2_1687290663.3168745.jpeg')",
+        'image12': "url('https://assets.leetcode.com/users/images/770789b0-c96b-4663-86d1-baab25534864_1669795265.8012726.png')",
     },
     screens: {
       'phone500': '500px',
