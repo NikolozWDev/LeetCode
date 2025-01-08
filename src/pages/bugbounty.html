@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../output.css">
+    <link rel="icon" href="../assets/Screenshot 2025-01-05 114349.png">
+    <title>LeetCode - Bug Bounty</title>
+</head>
+<body class="overflow-x-hidden font-sans bg-slate-50">
+
+
+<div class="flex justify-center">
+    <div class="border-b-[1px] border-b-gray-400 w-full phone1200:w-[1200px]">
+    <div class="flex justify-center p-[50px]">
+        <p class="text-black text-[25px]">LeetCode <span class="font-bold">Bug Bounty Program</span></p>
+    </div>
+</div>
+</div>
+
+
+
+<div class="flex justify-center mt-[30px]">
+    <div class="w-[80%] phone1200:w-[1200px] phone600:w-full">
+    <div class="flex flex-col justify-center items-start gap-[20px]">
+        
+        <p class="text-black font-bold text-[18px]">Eligibility</p>
+
+        <p class="text-gray-600 text-[16px]">Reports on the following classes of vulnerability are eligible for reward,
+             unless they are excluded (see the next section). In most cases, we will
+              only reward the type of vulnerabilities that are listed below.
+            </p>
+
+        <ul class="text-[15px] text-gray-500 ml-[20px]">
+            <li>O Arbitrary code execution</li>
+            <li>O SQL injection</li>
+            <li>O Privilege escalation (from unauthenticated user or to admin users)</li>
+            <li>O Authentication bypass for login</li>
+            <li>O Circumvention of permission model for apps or admin users</li>
+            <li>O Cross-site request forgery</li>
+            <li>O Cross-site scripting - See the next section for limitations</li>
+        </ul>
+
+
+
+
+
+        <p class="text-black font-bold text-[18px] mt-[40px]">Known issues or previously reported vulnerabilities</p>
+
+        <p class="text-gray-600 text-[16px]">The following reports are not considered as vulnerabilities or
+             are not subject of this bug bountry program. Please do not report any of the following issues:
+            </p>
+
+        <ul class="text-[15px] text-gray-500 ml-[20px]">
+            <li>O Any issue where staff users are able to insert JavaScript in their content</li>
+            <li>O Any issue related to execution of javascript in the Rich Text Editor (for example, when editing the description of a problems)</li>
+            <li>O Cross-site scripting that requires full control of a http header, such as Referer, Host etc.</li>
+            <li>O Arbitrary file upload to the CDN server</li>
+            <li>O Insecure cookie handling for non-sensitive cookies</li>
+            <li>O Incorrect/No cookie expiration</li>
+            <li>O CSRF for Login, Logout and Signup pages</li>
+            <li>O Issues with the SPF, DKIM or DMARC records for Leetcode domains or mail system abuse</li>
+            <li>O User enumeration</li>
+            <li>O There's no "X-Content-Type-Options" HTTP header with nosniff value, which can lead to Content Sniffing</li>
+            <li>O Content Spoofing on error and restore password page</li>
+            <li>O Any kind of brute force attacks on our services.</li>
+        </ul>
+
+
+
+
+
+
+        <p class="text-black font-bold text-[18px] mt-[40px]">Ineligible vulnerability types</p>
+
+        <p class="text-gray-600 text-[16px]">Leetcode does not consider the following to be eligible vulnerabilities under this program:
+            </p>
+
+        <ul class="text-[15px] text-gray-500 ml-[20px]">
+            <li>O Denial of Service</li>
+            <li>O Social Engineering, including phishing</li>
+            <li>O Failure to implement security best practices such as rate limiting, minimum password strength</li>
+            <li>O Any issue that can only be exploited by physical access to someone's device or debug access being enabled, or that depends on a vulnerability in the operating system</li>
+            <li>O Architectural decisions knowingly made by Leetcode are not considered as valid submissions to the whitehat program even if there may be a more secure alternative configuration.
+                 In general, issues that fall in this category will be rejected if we do not plan to implement a fix for them</li>
+        </ul>
+
+
+
+
+
+        <p class="text-black font-bold text-[18px] mt-[40px]">Rules for participation</p>
+
+        <p class="text-gray-600 text-[16px]">The following rules must be followed in order to get any rewards:
+            </p>
+
+        <ul class="text-[15px] text-gray-500 ml-[20px]">
+            <li>O Don’t attempt to gain access to another user’s account or data.</li>
+            <li>O Don’t perform any attack that could harm the reliability/integrity of our services or data. DDoS/spam attacks are not allowed.</li>
+            <li>O Don’t publicly disclose a bug before it has been fixed..</li>
+            <li>O Allow a reasonable amount of time for Leetcode to respond to your vulnerability report before publishing details of your exploit</li>
+            <li>O Only test for vulnerabilities on sites you know to be operated by Leetcode. Some sites hosted on subdomains of leetcode.com are either
+                 operated by third parties or no longer supported by us and just there for legacy reasons. Though in case it's possible to escalate the
+                  privileges through subdomain website to our original site, then it might be eligible for bug bounty.</li>
+            <li>O Do not impact other users with your testing, this includes testing for vulnerabilities in repositories you do not own. We may
+                 suspend your Leetcode account and ban your IP address if you do so.</li>
+            <li>O Don’t use scanners, scrapers or any other automated tools in your testing. They’re noisy and we may suspend your Leetcode account and ban your IP address.</li>
+            <li>O Never attempt non-technical attacks such as social engineering, phishing, or physical attacks against our employees, users, or infrastructure.</li>
+            <li>O When in doubt, contact us at</li>
+        </ul>
+
+
+
+
+
+        <p class="text-black font-bold text-[18px] mt-[40px]">Rules for us</p>
+
+        <ul class="text-[15px] text-gray-500 ml-[20px]">
+            <li>O We will respond as quickly as possible to your submission.</li>
+            <li>O We will keep you updated as we work to fix the bug you submitted.</li>
+            <li>O We will not take legal action against you if you play by the rules.</li>
+        </ul>
+
+
+
+
+        <p class="text-black font-bold text-[18px] mt-[40px]">Contact</p>
+
+        <p class="text-gray-600 text-[16px]">For submission please contact us at
+            </p>
+
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+<footer class="mt-[100px] pb-[30px]">
+    <div class="flex justify-center">
+    <div class="h-[1px] w-[80%] bg-gray-200 mt-[50px] phone1200:w-[1150px] phone1200:mt-[-10px]"></div>
+</div>
+
+    <div class="flex flex-row justify-center items-center phone700:justify-around phone1200:justify-center phone1200:gap-[420px]">
+
+    <p class="text-gray-500 text-[16px]">Copyright © 2025 LeetCode</p>
+
+    <div class="flex flex-wrap items-center gap-[20px]">
+        <a href="helpcenter.html"><p class="text-gray-500 text-[16px] cursor-pointer">Help Center  |</p></a>
+        <a href="join.html"><p class="text-gray-500 text-[16px] cursor-pointer"> Jobs  |</p></a>
+        <a href="bugbounty.html"><p class="text-gray-500 text-[16px] cursor-pointer">Bug Bounty  |</p></a>
+        <a href="student.html"><p class="text-gray-500 text-[16px] cursor-pointer">Students  |</p></a>
+        <a href="termsofservice.html"><p class="text-gray-500 text-[16px] cursor-pointer">Terms  |</p></a>
+        <a href="privacypolicy.html"><p class="text-gray-500 text-[16px] cursor-pointer">Privacy Policy</p></a>
+    </div>
+
+</div>
+</footer>
+
+
+
+</body>
+</html>
