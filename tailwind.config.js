@@ -19,6 +19,7 @@ module.exports = {
         'image13': "url('https://support.leetcode.com/hc/theming_assets/01HZKM7BF3RJ24JXMS3608EC5Y')",
     },
     screens: {
+      'phone380': '380px',
       'phone500': '500px',
       'phone550': '550px',
       'phone600': '600px',
